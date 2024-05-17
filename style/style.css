@@ -1,0 +1,125 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/asset/bacgroundCafe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* navbar */
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    /* color: #112D4E; */
+    color: white;
+}
+
+.navbar {
+    float: right;
+}
+
+nav {
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding: 1.4rem 1rem;
+    background-color: #000000b5;
+    backdrop-filter: blur(10px);
+    border-radius: 3rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #DAC0A3;
+}
+
+
+/* main content */
+main {
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+.text {
+    padding-top: 10%;
+    margin-bottom: 40px;
+}
+.text h2 {
+    font-family: huluh;
+    font-size: 40px;
+    font-weight: 500;
+}
+.text h1 {
+    font-family: courier;
+    font-size: 90px;
+    font-weight: 900;
+}
+/* main button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 3rem;
+    border: 2px solid;
+    color: white;
+}
+main button a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+} */
+
+/* button menu */
+.button {
+    padding: 15px 35px;
+    background-color: transparent;
+    border-radius: 3rem;
+    border: 2px solid;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #DAC0A3;
+}
